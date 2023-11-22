@@ -4,8 +4,108 @@
   <title>Muzammil Juda</title>
   <meta charset="utf-8">
   <meta name="author" content="Muzammil Juda">
+
+   <style>
+
+      body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #ffc0ad;
+      display: flex;
+      justify-content: center;
+  }
+
+  .banner {
+  display: flex;
+  justify-content: center;
+}
+
+
+    .banner-image{
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+    }
+
+    .thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+}
+.name {
+  color: #55423d;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons a {
+  color: #060606;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #f96060;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.link a {
+  color: #3aefe9;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
+
+   </style> 
+
 </head>
 <body>
-  <img src="/thumbnails/anonymus.jpg" alt="Muzammil Juda Profile">
+  <div class="items">
+  <div class="banner">
+  <img src="/thumbnails/anonymus.jpg" alt="Muzammil Juda Profile" class="banner-image">
+  </div>
+  <div class="name">
+    Muzammil Juda
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/Muzammil-Juda" target="_blank">
+      GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/muzammil-juda-4a1619285/" target="_blank">
+      LinkedIn
+    </a>
+  </div>
+  <div class="link">
+    <img src="/thumbnails/typography2 icon.png" class="thumbnail">
+
+    <a target="_blank"
+     href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
+     Butterick</a>
+     </div>
+
+     <div class="link">
+      <img src="/thumbnails/chatgpt icon.jpg" class="thumbnail">
+     <a target="_blank"
+     href="https://chat.openai.com/auth/login"> Chatgpt </a>
+
+  </div>
+  </div>
 </body>
 </html>
